@@ -42,5 +42,5 @@ CRAETE TABLE IF NOT EXISTS Order_Details (
     orderdetail_id INT PRIMARY KEY AUTO_INCREMENT,
     quantity DOUBLE,
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
-    FOREIGN KEY (order_id) REFERENCES Orders(order_)
+    FOREIGN KEY (order_id) REFERENCES Orders(order_id)
 );
