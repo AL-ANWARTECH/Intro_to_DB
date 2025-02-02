@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS Customers (
 CREATE TABLE IF NOT EXISTS Orders (
    order_id INT PRIMARY KEY AUTO_INCREMENT
    order_date DATE
-   FOREIGN KEY (customer_id) REFERENCES customers(cusomer_id)
+   FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 
 
