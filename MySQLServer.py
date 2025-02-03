@@ -19,7 +19,7 @@ finally:
     if connection.is_connected():
         connection.close()
         my_cursor.close()
-        print("MYSQL connection is closed.")
+        print("MYSQL connection is close")
 
 
     
